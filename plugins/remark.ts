@@ -81,11 +81,11 @@ export class MarkdownEngine implements Engine {
     filename?: string,
   ): string {
     const page = data?.page as Page | undefined;
-    return this.engine.processSync({
+    return (await this.engine.process({
       value: content,
       data: page?.data,
       path: filename,
-    }).toString();
+    })).toString();
   }
 
   addHelper() {}
