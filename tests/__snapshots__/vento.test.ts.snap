@@ -130,7 +130,7 @@ snapshot[`build a site with vento 3`] = `
   <title>TÍTULO</title>
 </head>
 <body>
-  <h1>Título</h1>
+  <section class="container"><h1>Título</h1>
 
 <a href="https://lume.land" class="btn btn-primary">
   Go to Lume
@@ -161,7 +161,7 @@ CUSTOM FILTER
 
 <strong>Título</strong>
 <strong>Título</strong>
-
+</section>
 
   <footer>
 Título
